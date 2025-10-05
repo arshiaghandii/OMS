@@ -3,6 +3,7 @@ CREATE TABLE roles (
                        name VARCHAR(50) UNIQUE NOT NULL -- e.g., 'ROLE_USER', 'ROLE_ADMIN'
 );
 
+
 CREATE TABLE users (
                        id BIGSERIAL PRIMARY KEY,
                        username VARCHAR(100) UNIQUE NOT NULL,
